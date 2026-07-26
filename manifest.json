@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "LeetPush - LeetCode to GitHub",
+  "version": "1.0.0",
+  "description": "Automatically syncs your accepted LeetCode submissions to a GitHub repository.",
+  "permissions": ["storage", "scripting", "activeTab", "notifications"],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "https://api.github.com/*"
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["src/content-script.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "icons/2.png",
+      "48": "icons/2.png",
+      "128": "icons/2.png"
+    }
+  },
+  "options_ui": {
+    "page": "src/options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "16": "icons/2.png",
+    "48": "icons/2.png",
+    "128": "icons/2.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["src/inject.js"],
+      "matches": ["https://leetcode.com/*"]
+    }
+  ]
+}

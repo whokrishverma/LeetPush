@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
