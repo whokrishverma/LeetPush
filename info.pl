@@ -4,7 +4,7 @@ this is an extension that pushed ur leetcode solution directly to github if acce
 
 CURRENT
 - personal tool to auto push leetcode ques and solution to my github
-- had to get a token then manually put it into the extension
+- had to get a personalised access token (classic) for repo then had to  manually feed it to the extension
 - push history isnt synced across browsers
 - history is saved only to browser memory as metadata
 - its loaded as unpacked code
