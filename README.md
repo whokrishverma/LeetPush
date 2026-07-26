@@ -1,3 +1,13 @@
+# 🚀 LeetPush
+
+> A Chrome Extension that automatically syncs your accepted LeetCode solutions to a GitHub repository with organized folders, solution files, and beautifully generated README files.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue)
+![GitHub API](https://img.shields.io/badge/GitHub-Contents_API-black)
+![Manifest V3](https://img.shields.io/badge/Manifest-V3-green)
+
+---
 # LeetPush — LeetCode → GitHub Auto-Sync (Chrome Extension)
 
 Automatically pushes your **Accepted** LeetCode submissions to a GitHub repo,
@@ -90,3 +100,25 @@ Easy/
 - Track a running streak / stats dashboard in the popup
 - Publish to the Chrome Web Store (would need an OAuth flow + small backend
   instead of a pasted PAT, for non-technical users)
+
+---
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨 Author
+
+**Krish Verma**
+
+If you found this project useful, consider giving it a ⭐ on GitHub!
