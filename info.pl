@@ -14,6 +14,7 @@ TO DO
 - ui/ux improvement
 - logo & pop-up issue fix
 - better format of question being saved, their readme's
+- new branding
 
 FUTURE SCOPE
 - add oAuth for GitHub
